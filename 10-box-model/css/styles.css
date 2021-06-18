@@ -1,0 +1,101 @@
+/* 
+     *Margin:
+     es la propiedad que nos permite generar espacio entre elementos.
+     Es un shortjand (propiedad abreviada) que controla los posibles a los que dar margen.
+     margin-top: margen superior
+     margin-right: margen derecho
+     margin-bottom: margen inferior
+     margin-left: margen izquierdo
+
+     Admite hasta 4 valores que van en el orden de las aguja del reloj.
+     4 valores ==> margin: top right bottom left;
+     3 valores ==> margin: top left/ right bottom;
+     2 valores ==> margin: top/bottom left/right;
+     1 valor ==> margin: top/right/bottom/left
+
+     *Padding:
+     es la propiedad que nos permite generar espacio entre elementos.
+     Es un shortjand (propiedad abreviada) que controla los posibles a los que dar margen.
+     padding-top: margen superior
+     padding-right: margen derecho
+     padding-bottom: margen inferior
+     padding-left: margen izquierdo
+
+     Admite hasta 4 valores que van en el orden de las aguja del reloj.
+     4 valores ==> padding: top right bottom left;
+     3 valores ==> padding: top left/ right bottom;
+     2 valores ==> padding: top/bottom left/right;
+     1 valor ==> padding: top/right/bottom/left
+     
+     
+     *Border:
+     es la propiedad que nos permite modificar el boder de las caja  les un shorthand ( propiedades abreviadas ) que agrupan
+     3 propiedades.
+     >border-width: ancho del borde.
+             border-top-width
+             border-right-width
+             border-bottom-width
+             border-left-width
+     >border-style: estilo del borde.
+             border-top-style
+             border-right-style
+             border-bottom-style
+             border-left-style
+     >border-color: color del borde.
+             border-top-color
+             border-right-color
+             border-bottom-color
+             border-left-color
+    
+
+    *Box-sizing:
+      es la propiedad que nos permite controlar el calculo que hace el navegador a la hora de modificar las propiedades content, padding y border.
+      los 2 valores que podemos darle son:
+          content-box ==> valor por defecto.
+          border-box ==> calculo de tamaño del elemento incluyendo el padding y el border     
+ */
+
+body{
+    background-color: rgb(87, 87, 87);
+    color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+.block{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    /* margin: 100px 20px 30px 20px; */
+    margin-left: auto ;
+    margin-right: 30px;
+    padding-top: 200px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left:  40px ;
+    box-sizing: border-box;
+}
+.inline{
+    background-color: hotpink;
+}
+
+.buttons{
+    background-color: royalblue;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.button{
+    margin-left: 90px;
+    padding: 25px 50px;
+    border: 20px solid red;
+    border-width: 20px;
+    border-style: solid;
+    border-color: red;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-right-width: 10px;
+    border-right-color: blue ;
+}
+

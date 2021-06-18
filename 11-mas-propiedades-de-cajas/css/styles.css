@@ -1,0 +1,48 @@
+/* 
+  Border-radius: es la porpiedas que nos permite redondear vertices de dorma independinete.
+  es un shorthand que nos engloba 4 propiedades: 
+    >border-top-left-radius ==> radio del border superior izq
+    >border-top-right-radius ==> radio del borde superior der
+    >border-buttom-left-radius ==> radio del border inferior izq
+    >border-buttom-right-radius ==> radio del borde inferior der
+
+  si los recibe un valor dibujado un circulo en cada vertice del radio que especifiquemos.
+  
+  * boder-radius: 50px ; ==> circulo con 50px de radio.
+
+  *si utilizamos el border-radio como shorthand hay deferencias entre si queremos dar un valor a cada lado (circulo) o dos (elipse)
+
+  decimos que un contenido se desborda cuando la caja es mas pequeña que el contenedor.
+  *Overflow:
+      es la propiedad que controla que debe hacer la caja cuando su contenido se desborda del contenedor.
+      es un shorthand que engloba overflow-x y overflow-y
+      tiene 4 pibles vectores:
+            visible ==> es el valor por defecto
+            hidden ==> el contenido que se desborda no se vera. si aplicamos esta propiedad en un solo eje, el otro se podra automaticamente en el valor scroll.
+            scroll ==> apareceran barras de scroll en el eje asignado(x, y o ambos)
+            auto ==> aparecen barras de scroll en el caso de que hicieran falta.
+*/
+
+body{
+
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+.box-1,
+.box-2{
+    padding: 10px;
+    background-color: blue;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: lightcyan;
+    width:  300px;
+    height: 300px;
+    color: black;
+     border-radius: 50px; 
+    overflow-y: auto;
+}

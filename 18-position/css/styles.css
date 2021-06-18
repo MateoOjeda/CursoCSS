@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: #666;
+    color: #fff;
+    padding-top: 100px;
+    
+}
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.container{
+   width: 200px;
+   height: 200px;
+   background-color: brown;
+   position: relative;
+   margin-left: 100px;
+}
+
+.box-1{
+   background-color: aqua;
+   position: absolute;
+   left: 100px;
+   top: 100px;
+   
+}
+
+
+.box-2{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+
+.header{
+    text-align: center;
+    padding: 25px 0;
+    background-color: cadetblue;
+    color: coral;
+    /* position: fixed;
+    top: 0; */
+    /* position: sticky;
+    top: 0; */
+    width: 100%;
+}
+
+article{
+    outline: 3px solid red;
+}
+/* .menu{
+    position: sticky;
+    top: 0;
+} */
+
+.article-title{
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}

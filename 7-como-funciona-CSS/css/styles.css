@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(88, 88, 88);
+}
+
+
+.title{
+    color: chartreuse;
+    font-size: 30px;
+}
+.text{
+    color: chocolate;
+}
+.link{
+    color: inherit;  /* para forzar la erencia */
+}
+
+.list{
+    color: blue;
+}
+.list-item-extra{
+    color:initial;
+}
